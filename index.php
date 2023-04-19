@@ -55,9 +55,12 @@ if ( isset($_GET['delete-last']) ) {
                 if ( isset($_SESSION['tasks']) ) {
                     echo "<ul>";
 
-                    foreach ( $_SESSION['tasks'] as $key => $task) {
-                        echo "<li>$task</li>";
-                    }
+                    foreach ($_SESSION['tasks'] as $key => $task) {
+                        echo "<li>";
+                        echo "<input type='checkbox' id='task$key' name='task[]' value='$key' style='margin-right: 5px;'>";
+                        echo "<label for='task$key' style='margin-left: 5px;'>$task</label>";
+                        echo "</li>";
+                    }              
                     echo "<ul>";
                 }
             ?>
