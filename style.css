@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background 0.3s;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: #546E7A;
+    color: #000000;
+    
+}
+
+.container {
+    background: #fff;
+    max-width: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 3%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+.form {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+
+.form input {
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    border: 1px solid #2B2B2B;
+    border-radius: 4px;
+}
+
+.form input:focus {
+    background: #f8f8f8;
+}
+
+.form button {
+    background: #B0BEC5;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    color: #2B2B2B;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form button:hover {
+    background: #c0d2da;
+}
+
+.separator {
+    background: #2B2B2B;
+    height: 2px;
+    border-radius: 2px;
+}
+
+.list-tasks {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.list-tasks ul { 
+    list-style: none;
+}
+
+.list-tasks ul li {
+    background: #B0BEC5;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    color: #2B2B2B;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+    padding: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.list-tasks ul li:hover {
+    background: #c0d2da;
+
+}
+
+.footer {
+    background: #dadfe1;
+    border-radius: 3%;
+    padding: 12px;
+}
+
+.btn-clear {
+    background: #B0BEC5;
+    padding: 12px;
+    color: #2B2B2B;
+    border: none;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.btn-clear:hover {
+    background: #c0d2da;
+}
+
+.btn-delete {
+    background: #B0BEC5;
+    padding: 12px;
+    color: #2B2B2B;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.btn-delete:hover {
+    background: #c0d2da;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    
+}
