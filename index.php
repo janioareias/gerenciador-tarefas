@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 if ( !isset($_SESSION['tasks']) ) {
@@ -19,9 +18,6 @@ if ( isset($_GET['delete-last']) ) {
     array_pop($_SESSION['tasks']);
     unset($_GET['delete-last']);
 }
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -62,7 +58,6 @@ if ( isset($_GET['delete-last']) ) {
                     echo "<ul>";
                 }
             ?>
-        
         </div>
 
         <div class="buttons">
@@ -81,8 +76,5 @@ if ( isset($_GET['delete-last']) ) {
         <div class="footer">
             <p>Desenvolvido por Jânio Areias</p>
         </div>
-    
-    
-
 </body>
 </html>
