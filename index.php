@@ -48,8 +48,6 @@ if ( isset($_GET['delete-last']) ) {
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
-        <div class="separator">
-        </div>
         <div class="list-tasks">
             <?php
                 if ( isset($_SESSION['tasks']) ) {
